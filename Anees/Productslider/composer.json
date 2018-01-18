@@ -1,0 +1,16 @@
+{
+  "name": "Anees/Productslider",
+  "description": "Product Slider for Latest Product",
+  "keywords": ["magento2", "product", "slider"],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Anees\\Productslider\\": ""
+    }
+  }
+}
